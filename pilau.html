@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pilau - East African Spiced Rice | African Heritage</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">African Heritage</div>
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pilau.html" class="active">Pilau</a></li>
+          <li><a href="fufu.html">Fufu</a></li>
+          <li><a href="injera.html">Injera</a></li>
+          <li><a href="animations.html">Animations</a></li>
+          <li><a href="index.html#credits">Credits</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="food-hero pilau-hero">
+      <div class="hero-background-animation">
+        <div class="floating-spice spice-1">🌿</div>
+        <div class="floating-spice spice-2">🌰</div>
+        <div class="floating-spice spice-3">🌸</div>
+        <div class="floating-spice spice-4">🧅</div>
+        <div class="floating-spice spice-5">🌾</div>
+        <div class="floating-spice spice-6">🥩</div>
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+      </div>
+      <div class="hero-content">
+        <h1>Pilau</h1>
+        <p>The Aromatic Journey from Spice Routes to Swahili Tables</p>
+        <div class="hero-badges">
+          <span class="badge">🌍 East Africa</span>
+          <span class="badge">🕰️ 700+ Years</span>
+          <span class="badge">🌶️ Spice Fusion</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Facts -->
+    <section class="quick-facts">
+      <div class="container">
+        <div class="facts-grid">
+          <div class="fact">
+            <h3>Origin Story</h3>
+            <p>
+              Brought by Arab and Indian traders, adapted by Swahili communities
+            </p>
+          </div>
+          <div class="fact">
+            <h3>Cultural Role</h3>
+            <p>
+              Celebration dish for weddings, festivals, and special occasions
+            </p>
+          </div>
+          <div class="fact">
+            <h3>Modern Status</h3>
+            <p>National dish of Kenya and Tanzania, global fusion favorite</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="food-content">
+      <div class="container">
+        <div class="content-grid">
+          <div class="text-content">
+            <h2>A Tale of Trade and Transformation</h2>
+            <p>
+              Pilau rice represents one of Africa's most beautiful examples of
+              cultural fusion. This aromatic dish arrived on the East African
+              coast through the monsoon winds that carried Arab and Indian
+              traders across the Indian Ocean. What began as a foreign recipe
+              was embraced, adapted, and transformed by Swahili communities into
+              something uniquely African.
+            </p>
+
+            <p>
+              The transformation wasn't merely culinary - it was cultural. As
+              dhows sailed into Kilifi, Malindi, and Mombasa harbors, they
+              brought more than spices and rice. They carried stories,
+              techniques, and traditions that would weave themselves into the
+              fabric of Swahili life. Local cooks didn't simply adopt the
+              recipe; they reimagined it, substituting ingredients, adjusting
+              techniques, and infusing it with their own cultural meanings.
+            </p>
+
+            <h3>The Spice Route Legacy</h3>
+            <p>
+              The story of pilau is inseparable from the ancient spice trade.
+              Cardamom from India, cinnamon from Ceylon, cloves from Zanzibar -
+              each spice tells a story of maritime adventure and cultural
+              exchange. The Swahili coast became a melting pot where these
+              flavors merged with local ingredients and cooking techniques.
+            </p>
+
+            <p>
+              For over seven centuries, the monsoon winds dictated the rhythm of
+              trade and cultural exchange. During the northeast monsoon, traders
+              would arrive with their precious cargo of spices, silks, and
+              knowledge. During the southwest monsoon, they would depart,
+              carrying with them African gold, ivory, and newly acquired
+              culinary wisdom. This seasonal dance of commerce created a unique
+              fusion cuisine that reflected the cosmopolitan nature of the
+              Swahili coast.
+            </p>
+          </div>
+
+          <div class="media-content">
+            <div class="video-container">
+              <video controls>
+                <source src="videos/pilau-cooking.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <p class="media-caption">
+                Watch our step-by-step pilau preparation
+              </p>
+            </div>
+
+            <div class="slideshow-container">
+              <div class="slide active">
+                <img
+                  src="images/pilau-1.jpg"
+                  alt="Aromatic pilau with spices"
+                />
+                <div class="slide-caption">Aromatic pilau with spices</div>
+              </div>
+              <div class="slide">
+                <img
+                  src="images/pilau-2.jpg"
+                  alt="Traditional pilau cooking process"
+                />
+                <div class="slide-caption">Pilau served in a wooden bowl</div>
+              </div>
+              <div class="slide">
+                <img src="images/pilau-3.jpeg" alt="Finished pilau dish" />
+                <div class="slide-caption">Finished pilau dish</div>
+              </div>
+
+              <button class="slide-btn prev" onclick="changeSlide(-1)">
+                ❮
+              </button>
+              <button class="slide-btn next" onclick="changeSlide(1)">❯</button>
+
+              <div class="slide-dots">
+                <span class="dot active" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cultural Significance Full Width -->
+    <section class="cultural-significance-full">
+      <div class="container">
+        <h2>Beyond the Kitchen</h2>
+        <p class="cultural-intro">
+          In Swahili culture, pilau is more than food - it's a symbol of
+          hospitality, prosperity, and celebration. The dish requires time,
+          patience, and quality ingredients, making it a gesture of respect for
+          guests and a centerpiece of important gatherings.
+        </p>
+        <p class="cultural-intro">
+          The preparation of pilau is itself a ritual of community building.
+          Families gather to select the finest rice, debate the perfect spice
+          proportions, and share stories while the aromatic steam fills the
+          kitchen. The dish's golden color, achieved through careful
+          caramelization of onions, symbolizes prosperity and abundance. When
+          served at weddings, it represents the golden future awaiting the
+          couple. During Eid celebrations, it embodies gratitude for life's
+          blessings.
+        </p>
+      </div>
+    </section>
+
+    <!-- Global Variations -->
+    <section class="regional-injera">
+      <div class="container">
+        <div class="regional-header">
+          <div class="regional-icon">🗺️</div>
+          <h2>Pilau Around the World</h2>
+          <p class="regional-subtitle">
+            One Recipe, Many Stories - Regional Traditions Across Continents
+          </p>
+        </div>
+
+        <div class="regional-showcase">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="region-flag">🇰🇪</div>
+                <h3>Kenyan Pilau</h3>
+                <div class="region-badge">East African</div>
+                <p class="flip-hint">Flip to explore details</p>
+              </div>
+              <div class="flip-card-back">
+                <h3>Kenyan Pilau</h3>
+                <div class="region-details">
+                  <div class="detail-item">
+                    <span class="detail-label">Color:</span>
+                    <span class="detail-value">Rich & Dark</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Base:</span>
+                    <span class="detail-value">Caramelized Onions</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Served with:</span>
+                    <span class="detail-value">Kachumbari</span>
+                  </div>
+                </div>
+                <p>
+                  Rich, dark color from caramelized onions and beef stock, often
+                  served with kachumbari salad.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="region-flag">🇹🇿</div>
+                <h3>Tanzanian Pilau</h3>
+                <div class="region-badge">Coastal</div>
+                <p class="flip-hint">Flip to explore details</p>
+              </div>
+              <div class="flip-card-back">
+                <h3>Tanzanian Pilau</h3>
+                <div class="region-details">
+                  <div class="detail-item">
+                    <span class="detail-label">Style:</span>
+                    <span class="detail-value">Regional Spices</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Addition:</span>
+                    <span class="detail-value">Coconut Milk</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Influence:</span>
+                    <span class="detail-value">Swahili Coast</span>
+                  </div>
+                </div>
+                <p>
+                  Similar to Kenyan but with regional spice variations and
+                  sometimes coconut milk.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="region-flag">🇦🇫</div>
+                <h3>Afghan Qabili</h3>
+                <div class="region-badge">Original</div>
+                <p class="flip-hint">Flip to explore details</p>
+              </div>
+              <div class="flip-card-back">
+                <h3>Afghan Qabili</h3>
+                <div class="region-details">
+                  <div class="detail-item">
+                    <span class="detail-label">Toppings:</span>
+                    <span class="detail-value">Raisins & Carrots</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Nuts:</span>
+                    <span class="detail-value">Almonds</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Status:</span>
+                    <span class="detail-value">Original Inspiration</span>
+                  </div>
+                </div>
+                <p>
+                  Topped with raisins, carrots, and almonds - the original
+                  inspiration for East African pilau.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ingredients Showcase -->
+    <section class="ingredients-showcase">
+      <div class="container">
+        <h2>The Sacred Spice Blend</h2>
+        <p class="section-intro">
+          Each ingredient in pilau carries cultural significance and contributes
+          to the dish's complex flavor profile
+        </p>
+
+        <div class="ingredients-detailed">
+          <div class="ingredient-card">
+            <div class="ingredient-icon">🌾</div>
+            <h3>Basmati Rice</h3>
+            <p>
+              Long-grain rice that absorbs flavors beautifully while maintaining
+              its texture
+            </p>
+            <span class="origin">Origin: Indian Subcontinent</span>
+          </div>
+          <div class="ingredient-card">
+            <div class="ingredient-icon">🥩</div>
+            <h3>Beef or Goat</h3>
+            <p>
+              Tender meat that becomes succulent through slow cooking with
+              spices
+            </p>
+            <span class="origin">Local: East African livestock</span>
+          </div>
+          <div class="ingredient-card">
+            <div class="ingredient-icon">🧅</div>
+            <h3>Onions</h3>
+            <p>
+              Caramelized to golden perfection, providing sweetness and depth
+            </p>
+            <span class="origin">Universal: Global cultivation</span>
+          </div>
+          <div class="ingredient-card">
+            <div class="ingredient-icon">🌿</div>
+            <h3>Cardamom</h3>
+            <p>The "queen of spices" adds floral, citrusy notes</p>
+            <span class="origin">Trade: Indian Ocean routes</span>
+          </div>
+          <div class="ingredient-card">
+            <div class="ingredient-icon">🌰</div>
+            <h3>Cinnamon</h3>
+            <p>Sweet warmth that balances the savory elements</p>
+            <span class="origin">Historic: Ceylon (Sri Lanka)</span>
+          </div>
+          <div class="ingredient-card">
+            <div class="ingredient-icon">🌸</div>
+            <h3>Cloves</h3>
+            <p>
+              Intense, aromatic spice that was once worth its weight in gold
+            </p>
+            <span class="origin">Local: Zanzibar cultivation</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Detailed Recipe -->
+    <section class="detailed-recipe">
+      <div class="container">
+        <h2>Authentic Pilau Recipe</h2>
+        <p class="recipe-intro">
+          Master the art of East African pilau with this traditional method
+        </p>
+        <div class="recipe-audio">
+          <audio controls>
+            <source src="audio/pilau-making.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
+          <p>Listen to the authentic pilau recipe narration</p>
+        </div>
+
+        <div class="recipe-content">
+          <div class="ingredients-section">
+            <h3>🌿 Ingredients</h3>
+            <ul class="ingredients-list">
+              <li><strong>2 cups</strong> basmati rice</li>
+              <li><strong>1 kg</strong> beef or goat meat (cut into pieces)</li>
+              <li><strong>3 large</strong> onions</li>
+              <li><strong>4 cloves</strong> garlic</li>
+              <li><strong>2 inch piece</strong> fresh ginger</li>
+              <li><strong>1 tsp</strong> cumin seeds</li>
+              <li><strong>Cooking oil</strong> for frying</li>
+              <li><strong>Salt</strong> to taste</li>
+              <li><strong>Kachumbari</strong> for serving</li>
+            </ul>
+            <div class="recipe-note">
+              <strong>Note:</strong> Use a large sufuria (heavy-bottomed pot)
+              for best results
+            </div>
+          </div>
+
+          <div class="instructions-section">
+            <h3>📜 Step-by-Step Instructions</h3>
+
+            <div class="recipe-step">
+              <div class="step-number">1</div>
+              <div class="step-content">
+                <h4>Prepare the Meat</h4>
+                <p>
+                  Let the meat boil till it's tender. Reserve the broth for
+                  later use.
+                </p>
+              </div>
+            </div>
+
+            <div class="recipe-step">
+              <div class="step-number">2</div>
+              <div class="step-content">
+                <h4>Prepare Vegetables</h4>
+                <p>Dice up the onions. Chop the garlic and ginger.</p>
+              </div>
+            </div>
+
+            <div class="recipe-step">
+              <div class="step-number">3</div>
+              <div class="step-content">
+                <h4>Make Garlic-Ginger Paste</h4>
+                <p>
+                  Crush the garlic and ginger using a mortar and pestle to make
+                  a smooth paste.
+                </p>
+              </div>
+            </div>
+
+            <div class="recipe-step">
+              <div class="step-number">4</div>
+              <div class="step-content">
+                <h4>Heat Oil and Add Cumin</h4>
+                <p>
+                  Heat oil in a large sufuria. Add 1 teaspoon cumin and mix
+                  properly.
+                </p>
+              </div>
+            </div>
+
+            <div class="recipe-step">
+              <div class="step-number">5</div>
+              <div class="step-content">
+                <h4>Cook Onions</h4>
+                <p>
+                  Add the onions and cook till they are almost golden brown.
+                </p>
+              </div>
+            </div>
+
+            <div class="recipe-step">
+              <div class="step-number">6</div>
+              <div class="step-content">
+                <h4>Add Garlic-Ginger Paste</h4>
+                <p>
+                  Add the garlic and ginger paste and cook till the aroma fills
+                  the room and onions turn golden brown.
+                </p>
+              </div>
+            </div>
+
+            <div class="recipe-step">
+              <div class="step-number">7</div>
+              <div class="step-content">
+                <h4>Prepare Rice</h4>
+                <p>Wash the rice thoroughly until water runs clear.</p>
+              </div>
+            </div>
+
+            <div class="recipe-step">
+              <div class="step-number">8</div>
+              <div class="step-content">
+                <h4>Combine Rice and Meat</h4>
+                <p>
+                  Add the rice to the pot and then mix with the spices and beef
+                  evenly.
+                </p>
+              </div>
+            </div>
+
+            <div class="recipe-step">
+              <div class="step-number">9</div>
+              <div class="step-content">
+                <h4>Add Broth and Cook</h4>
+                <p>
+                  Add the meat broth. Cover and cook it on low heat till the
+                  water evaporates.
+                </p>
+              </div>
+            </div>
+
+            <div class="recipe-step">
+              <div class="step-number">10</div>
+              <div class="step-content">
+                <h4>Serve</h4>
+                <p>
+                  Serve while hot with a side of kachumbari (tomato-onion
+                  salad).
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="tips-section">
+            <h3>✨ Traditional Tips</h3>
+            <div class="tips-grid">
+              <div class="tip">
+                <strong>Golden Onions:</strong> The key to authentic pilau color
+                is properly caramelized onions
+              </div>
+              <div class="tip">
+                <strong>Low Heat:</strong> Cook on low heat to prevent burning
+                and ensure even cooking
+              </div>
+              <div class="tip">
+                <strong>Don't Stir:</strong> Once you add the broth, avoid
+                stirring to prevent breaking the rice
+              </div>
+              <div class="tip">
+                <strong>Rest Time:</strong> Let pilau rest for 5 minutes after
+                cooking before serving
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modern Global Impact -->
+    <section class="global-impact">
+      <div class="container">
+        <h2>Pilau in the Modern World</h2>
+        <p class="global-intro">
+          From ancient Swahili kitchens to global dining tables - how pilau is
+          reshaping contemporary East African cuisine
+        </p>
+
+        <div class="impact-timeline">
+          <div class="impact-item">
+            <h3>💒 Wedding Celebrations</h3>
+            <p>
+              No Swahili wedding is complete without pilau. Celebrity chefs now
+              cater high-end weddings with gourmet pilau variations, while
+              traditional families still prepare massive quantities in communal
+              cooking sessions that strengthen extended family bonds.
+            </p>
+          </div>
+          <div class="impact-item">
+            <h3>🕌 Religious Festivals</h3>
+            <p>
+              During Eid and Ramadan, pilau has evolved beyond home kitchens.
+              Mosques organize community pilau feasts, while modern Muslim
+              families share pilau recipes on social media, creating virtual
+              communities that span continents.
+            </p>
+          </div>
+          <div class="impact-item">
+            <h3>🍽️ Restaurant Revolution</h3>
+            <p>
+              From Nairobi street vendors to London's Borough Market, pilau has
+              found new expressions. Michelin-starred restaurants create pilau
+              risottos, while food trucks serve pilau bowls to office workers
+              seeking authentic flavors.
+            </p>
+          </div>
+          <div class="impact-item">
+            <h3>🌍 Diaspora Innovation</h3>
+            <p>
+              East African communities worldwide have transformed pilau into
+              fusion cuisine. Toronto's Little Mogadishu serves pilau tacos,
+              while Dubai's expat communities host pilau potluck dinners that
+              blend Kenyan, Tanzanian, and Somali traditions.
+            </p>
+          </div>
+          <div class="impact-item">
+            <h3>📱 Digital Heritage</h3>
+            <p>
+              TikTok grandmothers teach pilau secrets to millions, while food
+              bloggers document regional variations. YouTube cooking channels
+              have made authentic pilau accessible to global audiences hungry
+              for East African flavors.
+            </p>
+          </div>
+          <div class="impact-item">
+            <h3>🎓 Culinary Education</h3>
+            <p>
+              Culinary schools in Nairobi and Dar es Salaam now offer
+              specialized courses in traditional East African cuisine, while
+              international cooking schools include pilau in their African
+              cuisine modules, training the next generation of global chefs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Navigation to other foods -->
+    <section class="food-navigation">
+      <div class="container">
+        <h2>Explore More African Heritage</h2>
+        <div class="nav-foods">
+          <a href="fufu.html" class="food-nav-card">
+            <h3>Next: Fufu</h3>
+            <p>Discover West Africa's communal staple</p>
+          </a>
+          <a href="injera.html" class="food-nav-card">
+            <h3>Also: Injera</h3>
+            <p>Explore Ethiopia's ancient flatbread</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>
+          &copy; 2025 African Traditional Foods Project. Cultural heritage
+          preserved through multimedia storytelling.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

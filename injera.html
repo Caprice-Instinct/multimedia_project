@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Injera - Ethiopian Ancient Flatbread | African Heritage</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">African Heritage</div>
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pilau.html">Pilau</a></li>
+          <li><a href="fufu.html">Fufu</a></li>
+          <li><a href="injera.html" class="active">Injera</a></li>
+          <li><a href="animations.html">Animations</a></li>
+          <li><a href="index.html#credits">Credits</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="food-hero injera-hero">
+      <div class="injera-background-animation">
+        <div class="floating-teff teff-1">🌾</div>
+        <div class="floating-teff teff-2">🌾</div>
+        <div class="floating-teff teff-3">🌾</div>
+        <div class="floating-teff teff-4">🌾</div>
+        <div class="floating-teff teff-5">🌾</div>
+      </div>
+      <div class="hero-content">
+        <h1>Injera</h1>
+        <p>3000 Years of Fermented Wisdom from the Horn of Africa</p>
+        <div class="hero-badges">
+          <span class="badge">🌾 Ancient Grain</span>
+          <span class="badge">⏳ 3000+ Years</span>
+          <span class="badge">🍽️ Plate & Utensil</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="food-content">
+      <div class="container">
+        <div class="content-grid">
+          <div class="text-content-expanded">
+            <h2>The Foundation of Ethiopian Civilization</h2>
+            <p>
+              Injera is not merely bread - it's the foundation upon which
+              Ethiopian society has been built for over three millennia. This
+              spongy, fermented flatbread made from teff flour represents one of
+              humanity's oldest continuous culinary traditions, unchanged in its
+              essence despite the passage of centuries.
+            </p>
+
+            <p>
+              In the highlands of Ethiopia, where the air is thin and the soil
+              rich with volcanic minerals, injera has sustained emperors and
+              farmers alike. It has witnessed the rise and fall of kingdoms,
+              survived colonial attempts at suppression, and emerged as a symbol
+              of Ethiopian resilience and identity. Every Ethiopian child learns
+              to eat with injera before they can walk properly, making it
+              literally the foundation of life itself.
+            </p>
+
+            <h3>The Art of Fermentation</h3>
+            <p>
+              The fermentation process that creates injera is a testament to
+              ancient food science that predates modern microbiology by
+              millennia. Wild yeasts naturally present in the Ethiopian
+              environment transform the teff batter over 2-3 days, creating the
+              characteristic tangy flavor and spongy texture. This process also
+              increases the bioavailability of nutrients and creates beneficial
+              probiotics that support digestive health.
+            </p>
+
+            <p>
+              What makes injera fermentation truly remarkable is its consistency
+              across generations. Ethiopian women have perfected this process
+              through oral tradition, passing down the knowledge of how to read
+              the batter's bubbles, smell its readiness, and feel its perfect
+              consistency. This ancient biotechnology creates a bread that is
+              both nutritious and easily digestible, with a shelf life that made
+              it perfect for Ethiopia's highland climate.
+            </p>
+          </div>
+
+          <div class="media-content">
+            <div
+              class="youtube-embed-container"
+              style="margin: 1.5em 0; text-align: center"
+            >
+              <iframe
+                width="360"
+                height="640"
+                src="https://www.youtube.com/embed/33a4xwvqO_E"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <p class="media-caption">Watch: Injera making (YouTube Short)</p>
+            </div>
+
+            <div class="slideshow-container">
+              <div class="slide active">
+                <img
+                  src="images/injera2.jpeg"
+                  alt="Traditional injera preparation on mitad"
+                />
+                <div class="slide-caption">
+                  Traditional injera preparation on mitad
+                </div>
+              </div>
+              <div class="slide">
+                <img
+                  src="images/injera3.jpg"
+                  alt="Injera served with traditional stews"
+                />
+                <div class="slide-caption">
+                  Injera served with traditional stews
+                </div>
+              </div>
+              <div class="slide">
+                <img src="images/injera.jpg" alt="Teff grain close-up" />
+                <div class="slide-caption">Teff grain close-up</div>
+              </div>
+
+              <button class="slide-btn prev" onclick="changeSlide(-1)">
+                ❮
+              </button>
+              <button class="slide-btn next" onclick="changeSlide(1)">❯</button>
+
+              <div class="slide-dots">
+                <span class="dot active" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cultural Significance Full Width -->
+    <section class="cultural-significance-full">
+      <div class="container">
+        <h2>Cultural Significance Beyond Nutrition</h2>
+        <p class="cultural-intro">
+          Injera transcends its role as sustenance to become a cultural
+          institution. The phrase "Have you eaten injera?" serves as both
+          greeting and genuine concern for wellbeing. In Ethiopian culture,
+          sharing injera from the same plate creates bonds of trust and intimacy
+          that extend beyond family to encompass entire communities. The bread
+          serves as both plate and utensil, eliminating the need for additional
+          implements and creating a more intimate dining experience.
+        </p>
+      </div>
+    </section>
+
+    <!-- Regional Variations -->
+    <section class="regional-injera">
+      <div class="container">
+        <div class="regional-header">
+          <div class="regional-icon">🗺️</div>
+          <h2>Injera Across the Horn of Africa</h2>
+          <p class="regional-subtitle">
+            One Bread, Many Stories - Regional Traditions Across Borders
+          </p>
+        </div>
+
+        <div class="regional-showcase">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="region-flag">🇪🇹</div>
+                <h3>Ethiopian Highlands</h3>
+                <div class="region-badge">Gold Standard</div>
+                <p class="flip-hint">Flip to explore details</p>
+              </div>
+              <div class="flip-card-back">
+                <h3>Ethiopian Highlands</h3>
+                <div class="region-details">
+                  <div class="detail-item">
+                    <span class="detail-label">Style:</span>
+                    <span class="detail-value">Pure Teff</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Color:</span>
+                    <span class="detail-value">Dark & Rich</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Occasion:</span>
+                    <span class="detail-value">Ceremonies</span>
+                  </div>
+                </div>
+                <p>
+                  Traditional injera made exclusively from teff flour,
+                  considered the authentic standard.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="region-flag">🇪🇹</div>
+                <h3>Ethiopian Lowlands</h3>
+                <div class="region-badge">Adaptive</div>
+                <p class="flip-hint">Flip to explore details</p>
+              </div>
+              <div class="flip-card-back">
+                <h3>Ethiopian Lowlands</h3>
+                <div class="region-details">
+                  <div class="detail-item">
+                    <span class="detail-label">Style:</span>
+                    <span class="detail-value">Mixed Grain</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Blend:</span>
+                    <span class="detail-value">Teff + Sorghum</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Purpose:</span>
+                    <span class="detail-value">Economic</span>
+                  </div>
+                </div>
+                <p>
+                  Teff combined with sorghum or barley, adapting to local
+                  resources.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="region-flag">🇪🇷</div>
+                <h3>Eritrean Taita</h3>
+                <div class="region-badge">Independent</div>
+                <p class="flip-hint">Flip to explore details</p>
+              </div>
+              <div class="flip-card-back">
+                <h3>Eritrean Taita</h3>
+                <div class="region-details">
+                  <div class="detail-item">
+                    <span class="detail-label">Style:</span>
+                    <span class="detail-value">Thicker</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Texture:</span>
+                    <span class="detail-value">Dense</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Identity:</span>
+                    <span class="detail-value">Unique</span>
+                  </div>
+                </div>
+                <p>
+                  Thicker injera reflecting Eritrean culinary independence and
+                  identity.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Teff Showcase -->
+    <section class="teff-showcase">
+      <div class="container">
+        <div class="teff-hero">
+          <div class="teff-visual">
+            <div class="teff-grain-animation">
+              <div class="grain"></div>
+              <div class="grain"></div>
+              <div class="grain"></div>
+              <div class="grain"></div>
+              <div class="grain"></div>
+            </div>
+          </div>
+          <div class="teff-intro">
+            <h2>🌾 Teff: The Miracle Grain</h2>
+            <p class="teff-tagline">
+              Smaller than a poppy seed, mightier than giants
+            </p>
+            <p class="teff-description">
+              For over 3000 years, this tiny Ethiopian grain has been nature's
+              perfect superfood, packed with more nutrition per grain than any
+              other cereal on Earth.
+            </p>
+          </div>
+        </div>
+
+        <div class="teff-benefits-grid">
+          <div class="benefit-card premium">
+            <div class="benefit-header">
+              <div class="benefit-icon">💪</div>
+              <h3>Complete Protein</h3>
+              <div class="benefit-badge">All 9 Essential</div>
+            </div>
+            <p>
+              The only grain with all essential amino acids - nature's perfect
+              protein package
+            </p>
+          </div>
+          <div class="benefit-card premium">
+            <div class="benefit-header">
+              <div class="benefit-icon">🩸</div>
+              <h3>Iron Powerhouse</h3>
+              <div class="benefit-badge">6x More Iron</div>
+            </div>
+            <p>
+              Contains 6 times more iron than wheat - fighting anemia naturally
+            </p>
+          </div>
+          <div class="benefit-card premium">
+            <div class="benefit-header">
+              <div class="benefit-icon">🦴</div>
+              <h3>Calcium Champion</h3>
+              <div class="benefit-badge">Bone Builder</div>
+            </div>
+            <p>
+              More calcium than most dairy products - strengthening bones from
+              grain to grave
+            </p>
+          </div>
+          <div class="benefit-card premium">
+            <div class="benefit-header">
+              <div class="benefit-icon">🌾</div>
+              <h3>Gluten Guardian</h3>
+              <div class="benefit-badge">100% Free</div>
+            </div>
+            <p>
+              Naturally gluten-free ancient grain - safe harbor for sensitive
+              stomachs
+            </p>
+          </div>
+          <div class="benefit-card premium">
+            <div class="benefit-header">
+              <div class="benefit-icon">🌱</div>
+              <h3>Gut Health Hero</h3>
+              <div class="benefit-badge">Prebiotic</div>
+            </div>
+            <p>
+              Resistant starch feeds good bacteria - your microbiome's best
+              friend
+            </p>
+          </div>
+          <div class="benefit-card premium">
+            <div class="benefit-header">
+              <div class="benefit-icon">⚡</div>
+              <h3>Energy Sustainer</h3>
+              <div class="benefit-badge">Low GI</div>
+            </div>
+            <p>Slow-release energy without crashes - fuel that lasts all day</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Preparation Process -->
+    <section class="preparation-ritual">
+      <div class="container">
+        <div class="ritual-header">
+          <div class="ritual-icon">🏺</div>
+          <h2 class="ritual-title">The Sacred Ritual of Injera Making</h2>
+          <div class="ritual-subtitle">
+            A 3000-Year Journey from Grain to Grace
+          </div>
+        </div>
+
+        <div class="injera-roadmap">
+          <div class="roadmap-line"></div>
+          <div class="roadmap-step">
+            <div class="roadmap-marker day1">1</div>
+            <div class="roadmap-content">
+              <h3>Day 1: The Beginning</h3>
+              <p>
+                Mix teff flour with water to create a smooth batter. Cover and
+                leave at room temperature to begin natural fermentation.
+              </p>
+              <div class="roadmap-icon">🌾</div>
+            </div>
+          </div>
+          <div class="roadmap-step">
+            <div class="roadmap-marker day2">2-3</div>
+            <div class="roadmap-content">
+              <h3>Days 2-3: Fermentation Magic</h3>
+              <p>
+                Wild yeasts work their magic, creating bubbles and developing
+                the characteristic sour flavor. The batter becomes alive.
+              </p>
+              <div class="roadmap-icon">🫧</div>
+            </div>
+          </div>
+          <div class="roadmap-step">
+            <div class="roadmap-marker cooking">🔥</div>
+            <div class="roadmap-content">
+              <h3>Cooking Day: The Mitad Ceremony</h3>
+              <p>
+                Pour batter onto the hot mitad (clay griddle) in a spiral
+                pattern. Steam rises as the injera cooks from below only.
+              </p>
+              <div class="roadmap-icon">🌀</div>
+            </div>
+          </div>
+          <div class="roadmap-step">
+            <div class="roadmap-marker final">✨</div>
+            <div class="roadmap-content">
+              <h3>Final: The Eyes Appear</h3>
+              <p>
+                Perfect injera develops "eyes" - small holes across the surface
+                that indicate proper fermentation and cooking.
+              </p>
+              <div class="roadmap-icon">👁️</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="tips-section">
+      <h3>✨ Traditional Tips</h3>
+      <div class="tips-grid">
+        <div class="tip">
+          <strong>Texture Test:</strong> Teff should feel smooth, not grainy,
+          when properly blended
+        </div>
+        <div class="tip">
+          <strong>Pan Temperature:</strong> Water should sizzle and evaporate
+          quickly when pan is ready
+        </div>
+        <div class="tip">
+          <strong>Moisture Control:</strong> Wipe lid moisture to prevent gummy
+          spots on injera
+        </div>
+        <div class="tip">
+          <strong>Timing:</strong> Watch for holes to form and edges to curl -
+          don't flip injera
+        </div>
+      </div>
+    </div>
+
+    <!-- Detailed Recipe -->
+    <section class="detailed-recipe">
+      <div class="container">
+        <h2>Modern Injera Recipe</h2>
+        <p class="recipe-intro">
+          Modern blender method for making authentic injera at home
+        </p>
+        <div class="recipe-audio">
+          <audio controls>
+            <source src="audio/injera_Recipe.mp3" type="audio/mpeg" />
+          </audio>
+          <p>Listen to the modern injera recipe narration</p>
+        </div>
+
+        <div class="recipe-content">
+          <div class="ingredients-section">
+            <h3>🌾 Ingredients</h3>
+            <ul class="ingredients-list">
+              <li><strong>1 cup</strong> teff flour</li>
+              <li><strong>4 cups</strong> water</li>
+              <li><strong>All-purpose flour</strong> (small amount)</li>
+              <li><strong>Sawadoo starter</strong> (fermentation starter)</li>
+              <li><strong>Baking powder</strong></li>
+              <li><strong>Cornstarch</strong></li>
+            </ul>
+            <div class="recipe-note">
+              <strong>Note:</strong> This modern blender method makes injera
+              accessible while maintaining authentic taste
+            </div>
+          </div>
+
+          <div class="instructions-section">
+            <h3>📜 Step-by-Step Instructions</h3>
+
+            <div class="recipe-step">
+              <div class="step-number">1</div>
+              <div class="step-content">
+                <h4>Blend Teff and Water</h4>
+                <p>
+                  In a blender, add 4 cups of water and 1 cup teff flour. Blend
+                  on slow initially just to combine ingredients. Use a rubber
+                  spatula to scrape from the sides. Test the teff by rubbing a
+                  bit between your fingers - it should feel grainy like fine wet
+                  sand initially. Blend for 1-2 minutes until no longer grainy.
+                </p>
+              </div>
+            </div>
+
+            <div class="recipe-step">
+              <div class="step-number">2</div>
+              <div class="step-content">
+                <h4>Add All-Purpose Flour</h4>
+                <p>
+                  Add all-purpose flour and blend on low to combine. Turn off
+                  the blender and scrape the sides. Resume mixing on high, only
+                  long enough to remove lumps, 15 to 30 seconds.
+                </p>
+              </div>
+            </div>
+
+            <div class="recipe-step">
+              <div class="step-number">3</div>
+              <div class="step-content">
+                <h4>Add Starter and Final Ingredients</h4>
+                <p>
+                  Add sawadoo starter and blend to combine. While the blender is
+                  still running, add baking powder and cornstarch. Gradually
+                  increase speed and blend for 30 seconds.
+                </p>
+              </div>
+            </div>
+
+            <div class="recipe-step">
+              <div class="step-number">4</div>
+              <div class="step-content">
+                <h4>Rest the Batter</h4>
+                <p>
+                  Allow the batter to rest for 15 minutes to solidify and
+                  develop proper consistency.
+                </p>
+              </div>
+            </div>
+
+            <div class="recipe-step">
+              <div class="step-number">5</div>
+              <div class="step-content">
+                <h4>Heat the Pan</h4>
+                <p>
+                  Heat a non-stick skillet with a lid on high heat. It is ready
+                  when a drop of water on the surface sizzles and burns off
+                  quickly.
+                </p>
+              </div>
+            </div>
+
+            <div class="recipe-step">
+              <div class="step-number">6</div>
+              <div class="step-content">
+                <h4>Pour and Cook</h4>
+                <p>
+                  Pour half to three-quarter cup batter into the hot pan and
+                  tilt the pan on all sides until the batter spreads evenly.
+                  Cook on high heat for 15 seconds or until holes form on the
+                  top.
+                </p>
+              </div>
+            </div>
+
+            <div class="recipe-step">
+              <div class="step-number">7</div>
+              <div class="step-content">
+                <h4>Cover and Finish</h4>
+                <p>
+                  Cover and continue cooking until the edges of the injera begin
+                  to lift from the sides of the pan and begin to curl. The
+                  entire process takes 1.5 to 3 minutes depending on your stove
+                  heat. Wipe moisture from the lid to prevent gummy spots.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cultural & Spiritual Significance -->
+    <section class="spiritual-significance">
+      <div class="container">
+        <div class="spiritual-header">
+          <h2>Sacred Threads of Culture</h2>
+          <p class="spiritual-subtitle">
+            Where Food Becomes Faith, Community, and Identity
+          </p>
+        </div>
+
+        <div class="significance-mosaic">
+          <div class="significance-card spiritual">
+            <div class="card-glow"></div>
+            <div class="significance-icon">🕊️</div>
+            <h3>Sacred Fasting</h3>
+            <div class="significance-detail">200+ Holy Days</div>
+            <p>
+              Injera transforms into spiritual sustenance during Orthodox
+              fasting, carrying prayers with every bite of plant-based harmony.
+            </p>
+          </div>
+
+          <div class="significance-card community">
+            <div class="card-glow"></div>
+            <div class="significance-icon">🤝</div>
+            <h3>Unity Circle</h3>
+            <div class="significance-detail">One Plate, Many Hearts</div>
+            <p>
+              Sharing from the same injera weaves invisible threads of trust,
+              turning strangers into family with every communal bite.
+            </p>
+          </div>
+
+          <div class="significance-card wisdom">
+            <div class="card-glow"></div>
+            <div class="significance-icon">👩‍👧‍👦</div>
+            <h3>Ancestral Knowledge</h3>
+            <div class="significance-detail">Mother to Daughter</div>
+            <p>
+              Each perfect injera carries the whispered secrets of grandmothers,
+              preserving feminine wisdom through flour and fermentation.
+            </p>
+          </div>
+
+          <div class="significance-card identity">
+            <div class="card-glow"></div>
+            <div class="significance-icon">🎭</div>
+            <h3>Living Language</h3>
+            <div class="significance-detail">"Have you eaten injera?"</div>
+            <p>
+              More than greeting, it's the heartbeat of Ethiopian soul - where
+              asking about bread means asking about life itself.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Eating Etiquette -->
+    <section class="eating-etiquette">
+      <div class="container">
+        <div class="etiquette-header">
+          <div class="etiquette-main-icon">🍽️</div>
+          <h2>The Art of Eating Injera</h2>
+          <p class="etiquette-subtitle">
+            Sacred Rituals of Sharing - Where Every Bite Builds Bonds
+          </p>
+        </div>
+
+        <div class="etiquette-showcase">
+          <div class="etiquette-card elegant">
+            <div class="etiquette-visual">
+              <div class="step-icon animated">🤲</div>
+              <div class="etiquette-badge">Essential</div>
+            </div>
+            <div class="etiquette-content">
+              <h3>Right Hand Sacred</h3>
+              <p>
+                Always use your right hand to tear pieces of injera. The left
+                hand is considered unclean in Ethiopian culture.
+              </p>
+            </div>
+          </div>
+
+          <div class="etiquette-card elegant">
+            <div class="etiquette-visual">
+              <div class="step-icon animated">🥄</div>
+              <div class="etiquette-badge">Technique</div>
+            </div>
+            <div class="etiquette-content">
+              <h3>Gentle Embrace</h3>
+              <p>
+                Use injera to scoop up stews and vegetables with care. Never
+                stab or pierce the food - let the injera cradle it.
+              </p>
+            </div>
+          </div>
+
+          <div class="etiquette-card elegant">
+            <div class="etiquette-visual">
+              <div class="step-icon animated">👥</div>
+              <div class="etiquette-badge">Unity</div>
+            </div>
+            <div class="etiquette-content">
+              <h3>Shared Intimacy</h3>
+              <p>
+                Everyone eats from the same large injera, creating intimacy and
+                trust among diners. This transforms strangers into family.
+              </p>
+            </div>
+          </div>
+
+          <div class="etiquette-card elegant">
+            <div class="etiquette-visual">
+              <div class="step-icon animated">💝</div>
+              <div class="etiquette-badge">Love</div>
+            </div>
+            <div class="etiquette-content">
+              <h3>Gursha Blessing</h3>
+              <p>
+                Feed others at the table as a sign of love and respect - this
+                sacred act of "gursha" strengthens relationships.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Modern Global Impact -->
+    <section class="global-impact">
+      <div class="container">
+        <h2>Injera in the Modern World</h2>
+        <p class="global-intro">
+          From ancient Ethiopian highlands to global dining tables - how injera
+          is reshaping contemporary cuisine
+        </p>
+
+        <div class="impact-timeline">
+          <div class="impact-item">
+            <h3>🍴 Fusion Restaurants</h3>
+            <p>
+              Michelin-starred chefs in New York, London, and Paris incorporate
+              injera as a base for international dishes, creating
+              Ethiopian-Italian pasta wraps and injera sushi rolls.
+            </p>
+          </div>
+          <div class="impact-item">
+            <h3>📱 Social Media Trends</h3>
+            <p>
+              TikTok and Instagram influencers showcase injera challenges,
+              mukbangs, and fusion recipes, reaching millions of young global
+              audiences daily.
+            </p>
+          </div>
+          <div class="impact-item">
+            <h3>🏢 Corporate Cafeterias</h3>
+            <p>
+              Tech companies like Google and Microsoft feature injera in their
+              employee cafeterias, introducing Ethiopian cuisine to diverse
+              workforces.
+            </p>
+          </div>
+          <div class="impact-item">
+            <h3>🛍️ Retail Revolution</h3>
+            <p>
+              Whole Foods, Trader Joe's, and international supermarkets now
+              stock frozen injera and teff flour, making Ethiopian cuisine
+              accessible worldwide.
+            </p>
+          </div>
+          <div class="impact-item">
+            <h3>🎓 Culinary Schools</h3>
+            <p>
+              Prestigious culinary institutes include injera-making in their
+              curriculum, training the next generation of chefs in Ethiopian
+              techniques.
+            </p>
+          </div>
+          <div class="impact-item">
+            <h3>🌎 Food Festivals</h3>
+            <p>
+              International food festivals feature injera workshops and
+              tastings, with Ethiopian food trucks becoming popular at music
+              festivals and street food markets.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Navigation to other foods -->
+    <section class="food-navigation">
+      <div class="container">
+        <h2>Complete Your Cultural Journey</h2>
+        <div class="nav-foods">
+          <a href="fufu.html" class="food-nav-card">
+            <h3>Previous: Fufu</h3>
+            <p>Explore West Africa's communal staple</p>
+          </a>
+          <a href="pilau.html" class="food-nav-card">
+            <h3>Also: Pilau</h3>
+            <p>Discover East Africa's spiced rice</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>
+          &copy; 2025 African Traditional Foods Project. Cultural heritage
+          preserved through multimedia storytelling.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

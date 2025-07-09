@@ -1,0 +1,31 @@
+Image Files Needed for the Website:
+
+HOMEPAGE:
+- No specific images needed (uses CSS gradients and video background)
+
+PILAU PAGE:
+- pilau-hero.jpg - Hero background image of pilau dish
+- pilau-card.jpg - Card image for homepage (350x250px recommended)
+
+FUFU PAGE:
+- fufu-hero.jpg - Hero background image of fufu preparation
+- fufu-card.jpg - Card image for homepage (350x250px recommended)
+- fufu-preparation.jpg - Traditional fufu preparation with mortar and pestle
+- fufu-serving.jpg - Fufu served with traditional soup
+- fufu-community.jpg - Community preparing fufu together
+
+INJERA PAGE:
+- injera-hero.jpg - Hero background image of injera
+- injera-card.jpg - Card image for homepage (350x250px recommended)
+- injera-making.jpg - Traditional injera preparation on mitad
+- injera-serving.jpg - Injera served with traditional stews
+- teff-grain.jpg - Close-up of teff grain
+
+RECOMMENDED IMAGE SPECIFICATIONS:
+- Hero images: 1920x1080px (landscape)
+- Card images: 350x250px (landscape)
+- Gallery images: 600x400px (landscape)
+- Format: JPG for photos, PNG for graphics
+- Optimize for web (compress to reduce file size)
+
+The website will display placeholder messages for missing images until you add your actual photos.
