@@ -23,12 +23,13 @@ Food_Project/
 ### Videos (add to `videos/` folder):
 - `intro-video.mp4` - Hero section background video
 - `pilau-cooking.mp4` - Step-by-step pilau cooking process
+- `fufu_cooking.mp4` - Traditional fufu preparation process
 - `final-presentation.mp4` - Traditional Swahili serving presentation
 
 ### Audio (add to `audio/` folder):
 - `pilau-narration.mp3` - Voice-over for pilau cooking process
-- `fufu-background.mp3` - Cultural background narration for fufu
-- `injera-background.mp3` - Ethiopian cultural narration
+- `fufu_recipe.mp3` - Traditional fufu recipe narration
+- `injera_Recipe.mp3` - Modern injera recipe narration
 - `closing-music.mp3` - Background closing music
 
 ### Images (add to `images/` folder):
@@ -67,8 +68,9 @@ Food_Project/
 ### 🎨 **Advanced Design Elements**
 ✅ **Responsive Design** - Optimized for all devices (mobile-first approach)
 ✅ **Multimedia Integration** - Video, audio, and image galleries
-✅ **Smooth Animations** - Scroll-triggered animations and hover effects
-✅ **Interactive Elements** - Clickable cards, navigation, and media controls
+✅ **Advanced Animations** - Hero background animations, floating elements, and interactive effects
+✅ **Interactive Elements** - Flip cards, slideshows, and enhanced navigation
+✅ **Enhanced Typography** - Custom headers with decorative elements and animations
 ✅ **Accessibility** - Keyboard navigation and screen reader friendly
 ✅ **Error Handling** - Graceful fallbacks for missing media files
 
@@ -201,25 +203,52 @@ Each food page includes modular sections:
 - **Featured Food Cards**: Beautiful, clickable cards for each dish
 
 ### 🍚 **Pilau Page Highlights**
+- **Animated Hero Background**: Floating spices and gradient orbs animation
 - **Spice Route History**: Connection to Indian Ocean trade
-- **Detailed Ingredients**: Cultural significance of each spice
-- **Global Variations**: From Kenya to Afghanistan
-- **Cooking Process**: Step-by-step traditional preparation
-- **Modern Context**: Role in contemporary East African culture
+- **Interactive Flip Cards**: Regional variations with hover-to-flip functionality
+- **Detailed Recipe**: Step-by-step traditional preparation with audio narration
+- **Cultural Significance**: Full-width "Beyond the Kitchen" section
 
 ### 🥣 **Fufu Page Highlights**
-- **Community Focus**: Emphasis on communal preparation and eating
-- **Regional Variations**: 4 different national styles
-- **Preparation Ritual**: Traditional pounding process
+- **Enhanced Header**: "More Than Food: A Cultural Institution" with animated graphics
+- **Multimedia Integration**: Video cooking demonstration and image slideshow
+- **Interactive Flip Cards**: Regional variations across Ghana, Nigeria, and Ivory Coast
+- **Spiritual Dimensions**: Full-width section on cultural and spiritual significance
+- **Enhanced Nutrition Cards**: 2x2 grid layout with gradient borders and animations
 - **Cultural Etiquette**: Proper eating customs and social significance
-- **Modern Adaptations**: How fufu evolves in diaspora communities
 
 ### 🫓 **Injera Page Highlights**
-- **Ancient Heritage**: 3000+ years of continuous tradition
-- **Teff Superfood**: Detailed nutritional benefits
-- **Fermentation Science**: Traditional food preservation techniques
-- **Spiritual Significance**: Role in Ethiopian Orthodox Christianity
-- **Global Impact**: Modern recognition as a superfood
+- **Animated Hero Background**: Floating teff grains, fermentation bubbles, and ancient patterns
+- **Teff Showcase**: Animated grain visualization with premium benefit cards
+- **Sacred Ritual**: 3000-year journey roadmap with visual timeline
+- **Cultural Mosaic**: Interactive significance cards with glow effects
+- **Regional Flip Cards**: Variations across Horn of Africa with detailed specifications
+- **Global Impact**: Modern recognition and contemporary applications
+
+## Project Team
+
+**Development Team:**
+- Gitiche Emmanuel Chege
+- Kimanga Victor
+- Wabuga Linet Wangui
+- Kariuki Maryfancy
+- Tracey Munyagia
+
+**Special Thanks:**
+- Dr Victor Mageto - Project Supervisor
+- Cultural consultants and community members
+
+## Animation Features
+
+### 🎬 **Hero Section Animations**
+- **Pilau**: Floating spices (herbs, cinnamon, cloves) with gradient orbs
+- **Fufu**: Enhanced typography with decorative elements
+- **Injera**: Floating teff grains, fermentation bubbles, and rotating ancient patterns
+
+### 🎨 **Interactive Elements**
+- **Flip Cards**: Hover-to-flip regional variations with detailed information
+- **Enhanced Cards**: Gradient borders, floating animations, and hover effects
+- **Typography**: Animated headers with decorative elements and sparkle effects
 
 ## Future Enhancements
 
